@@ -1,0 +1,46 @@
+/*
+* @Author: yangyunf
+* @Date:   2018-05-24 16:12:30
+* @Last Modified by:   yangyunf
+* @Last Modified time: 2018-06-04 17:17:55
+*/
+
+.thigh {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.case-zone{
+	margin:0 auto;
+	width:80%;
+	margin-top: 30px;
+}
+
+.params-width {
+	margin-right: 10px;
+}
+
+.params-bottom{
+	margin-bottom: 5px;
+}
+
+.req-border {
+	border: 1px solid red;
+}
+
+.box {
+	border: dashed 2px green;
+	margin-bottom: 35px;
+	padding-top: 35px;
+	padding-right: 15px;
+	/* padding: 35px 15px; */
+}
+
+.declare {
+	color: #bbbec4;
+}
+
+.sub-title {
+	margin-left: 65px;
+	margin-bottom: 5px;
+}

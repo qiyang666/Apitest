@@ -1,0 +1,29 @@
+/*
+* @Author: yangyunf
+* @Date:   2018-04-20 14:48:02
+* @Last Modified by:   yangyunf
+* @Last Modified time: 2018-04-20 16:10:27
+*/
+
+.thigh {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.case-zone{
+	margin:0 auto;
+	width:80%;
+	margin-top: 30px;
+}
+
+.params-width {
+	margin-right: 10px;
+}
+
+.params-bottom{
+	margin-bottom: 5px;
+}
+
+.req-border {
+	border: 1px solid red;
+}
