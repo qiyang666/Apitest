@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Header from '@/components/header/header'
-import Home from '@/components/home/home'
+// import Home from '@/components/home/home'
 // import Case from '@/components/case/case'
 // import CaseList from '@/components/case/list'
 // import CaseEdit from '@/components/case/edit'
@@ -45,7 +45,7 @@ export default new Router({
       name: 'Header',
       component: Header,
       children: [
-        {path: 'home', name: 'home', component: Home},
+        // {path: 'home', name: 'home', component: Home},
         // { path: 'crontab/new', name: 'newcrontab', component: Crontab },
         // { path: 'crontab/list', name: 'crontablist', component: CrontabList },
         // { path: 'crontab/edit', name: 'crontabedit', component: CrontabEdit },

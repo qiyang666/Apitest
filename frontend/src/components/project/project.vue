@@ -24,7 +24,7 @@
   </FormItem>
   <FormItem>
   <Button type="primary" @click="save">保存</Button>
-  <Button type="ghost" style="margin-left: 8px" @click.native="$router.push('/project/list')">取消</Button>
+  <Button type="error" style="margin-left: 8px" @click.native="$router.push('/project/list')">取消</Button>
   </FormItem>
   </Form>
     </div>
