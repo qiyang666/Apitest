@@ -42,10 +42,10 @@ export default {
           title: '报警邮箱',
           key: 'receive_mail'
         },
-        {
-          title: '钉钉机器人地址',
-          key: 'dingding'
-        },
+        // {
+        //   title: '钉钉机器人地址',
+        //   key: 'dingding'
+        // },
         {
           title: '项目描述',
           key: 'pro_detail'
@@ -133,7 +133,7 @@ export default {
       localStorage.setItem('tester', `${this.data1[index].tester}`)
       localStorage.setItem('developer', `${this.data1[index].developer}`)
       localStorage.setItem('receive_mail', `${this.data1[index].receive_mail}`)
-      localStorage.setItem('dingding', `${this.data1[index].dingding}`)
+      // localStorage.setItem('dingding', `${this.data1[index].dingding}`)
       localStorage.setItem('pro_detail', `${this.data1[index].pro_detail}`)
     },
     getProList (currentPage) {

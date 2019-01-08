@@ -16,8 +16,8 @@
   <FormItem label="报警邮箱">
   <Input v-model="formItem.mail" placeholder="输入接收报警邮箱地址"></Input>
   </FormItem>
-  <FormItem label="钉钉地址">
-  <Input v-model="formItem.ding" placeholder="输入钉钉机器人地址"></Input>
+  <!--<FormItem label="钉钉地址">-->
+  <!--<Input v-model="formItem.ding" placeholder="输入钉钉机器人地址"></Input>-->
   </FormItem>
   <FormItem label="项目描述">
   <Input v-model="formItem.detail" type="textarea" :autosize="{minRows: 2,maxRows: 5}" placeholder="项目简要描述"></Input>
@@ -41,7 +41,7 @@ export default {
         devploper: '',
         detail: '',
         mail: '',
-        ding: '',
+        // ding: '',
         pdata: '',
         slider: [20, 50],
         textarea: ''
@@ -58,7 +58,7 @@ export default {
           tester: this.formItem.tester,
           developer: this.formItem.devploper,
           receive_mail: this.formItem.mail,
-          dingding: this.formItem.ding,
+          // dingding: this.formItem.ding,
           pro_detail: this.formItem.detail
         }
       })
