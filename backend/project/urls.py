@@ -18,7 +18,7 @@ from . import views
 
 urlpatterns = [
     path('create', views.create),
-#     path('update', views.update),
-#     path('delete', views.delete),
+    path('update', views.update),
+    path('delete', views.delete),
     path('list', views.list),
  ]

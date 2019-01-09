@@ -6,14 +6,14 @@
     overflow: hidden;
 }
 .layout-logo{
-    width: 200px;
+    width: 100px;
     height: 30px;
     /* background: #5b6270; */
     background: #494f5f;
     border-radius: 3px;
     float: left;
     position: relative;
-    top: 15px;
+    top: 20px;
     left: 5px;
     margin-right: 50px;
     color: #ff9900;
@@ -21,7 +21,7 @@
     font-weight: bold;
     line-height: 35px;
     cursor: pointer;
-    
+
 }
 .layout-nav{
     width: 100%;
@@ -37,7 +37,7 @@
     -webkit-box-flex: 0;
     -ms-flex: 0;
     flex: 0;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .em-dashboard__item {

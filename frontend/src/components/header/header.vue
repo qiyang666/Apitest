@@ -8,7 +8,7 @@
             <Layout>
                 <Header>
                     <Menu mode="horizontal" theme="dark" active-name="1">
-                        <div class="layout-logo" @click="$router.push('/')">乐居商业接口测试系统</div>
+                        <div class="layout-logo" @click="$router.push('/')">接口测试平台</div>
                         <div class="layout-nav">
                             <Submenu name="1">
                                 <template slot="title">

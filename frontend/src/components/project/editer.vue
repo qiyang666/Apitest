@@ -16,15 +16,15 @@
   <FormItem label="报警邮箱">
   <Input v-model="formItem.mail" placeholder="输入接收报警邮箱地址"></Input>
   </FormItem>
-  <FormItem label="钉钉地址">
-  <Input v-model="formItem.ding" placeholder="输入钉钉机器人地址"></Input>
-  </FormItem>
+  <!--<FormItem label="钉钉地址">-->
+  <!--<Input v-model="formItem.ding" placeholder="输入钉钉机器人地址"></Input>-->
+  <!--</FormItem>-->
   <FormItem label="项目描述">
   <Input v-model="formItem.detail" type="textarea" :autosize="{minRows: 2,maxRows: 5}" placeholder="项目简要描述"></Input>
   </FormItem>
   <FormItem>
   <Button type="primary" @click="update()">更新</Button>
-  <Button type="error" style="margin-left: 8px" @click.native="$router.push('/project/list')">取消</Button>
+  <Button type="warning" style="margin-left: 8px" @click.native="$router.push('/project/list')">取消</Button>
   </FormItem>
   </Form>
   </div>
