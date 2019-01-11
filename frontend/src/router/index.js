@@ -2,10 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Header from '@/components/header/header'
 // import Home from '@/components/home/home'
-// import Case from '@/components/case/case'
-// import CaseList from '@/components/case/list'
-// import CaseEdit from '@/components/case/edit'
-// import CaseDetail from '@/components/case/detail'
+import Case from '@/components/case/case'
+import CaseList from '@/components/case/list'
+import CaseEdit from '@/components/case/edit'
+import CaseDetail from '@/components/case/detail'
 // import Crontab from '@/components/crontab/crontab'
 // import CrontabList from '@/components/crontab/list'
 // import CrontabEdit from '@/components/crontab/edit'
@@ -52,11 +52,11 @@ export default new Router({
         // { path: 'crontab/report', name: 'crontabreport', component: CrontabReport },
         { path: 'project/new', name: 'newpro', component: Project },
         { path: 'project/list', name: 'prolist', component: ProList },
-        { path: 'project/edit', name: 'proedit', component: ProEdit }
-        // { path: 'case/new', name: 'newcase', component: Case },
-        // { path: 'case/list', name: 'caselist', component: CaseList },
-        // { path: 'case/edit', name: 'caseedit', component: CaseEdit },
-        // { path: 'case/detail', name: 'casedetail', component: CaseDetail },
+        { path: 'project/edit', name: 'proedit', component: ProEdit },
+        { path: 'case/new', name: 'newcase', component: Case },
+        { path: 'case/list', name: 'caselist', component: CaseList },
+        { path: 'case/edit', name: 'caseedit', component: CaseEdit },
+        { path: 'case/detail', name: 'casedetail', component: CaseDetail },
         // { path: 'report', name: 'report', component: Report },
         // // { path: 'report',name: 'report',component: Report },
         // { path: 'settings/new', name: 'newsettings', component: Settings },
