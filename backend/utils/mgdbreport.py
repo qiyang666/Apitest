@@ -8,21 +8,25 @@ import time
 from backend.utils import config
 from bson import ObjectId
 from pymongo import MongoClient
+
 class Mogo_dbreport:
     def __init__(self):
        self.database='report'
        self.table='cronreport'
        self.ip=config.mg_ip
        self.port=config.mg_port
+
     def connectmongodb(self):
         client = MongoClient(self.ip,self.port)
         db = client[self.database]
         table=db[self.table]
         return table
+
     #insert
     def insertreport(self,data):
         tbcase=self.connectmongodb()
         tbcase.save(data)
+
     def select(self):
         tbcase=self.connectmongodb()
         result=tbcase.find().sort([("time",-1)]).limit(20)
@@ -32,6 +36,7 @@ class Mogo_dbreport:
             i['_id']=str(i['_id'])
             l.append(i)
         return l
+
     def selectbycid(self,cid):
         tbcase=self.connectmongodb()
         result=tbcase.find({"cid":int(cid)}).sort([("time",-1)]).limit(1)
@@ -42,7 +47,6 @@ class Mogo_dbreport:
             l.append(i)
         return l
 
-
     def selectbyid(self,_id):
         tbcase=self.connectmongodb()
         result=tbcase.find_one({"_id":ObjectId(_id)})
@@ -50,6 +54,7 @@ class Mogo_dbreport:
         result['_id']=str(result['_id'])
 
         return result
+
     def selectbyprolev(self,name,level):
 
         if len(level)==0:

@@ -1,0 +1,20 @@
+/*
+* @Author: yangyunf
+* @Date:   2018-03-08 17:24:50
+* @Last Modified by:   yangyunf
+* @Last Modified time: 2018-03-08 17:49:01
+*/
+
+.ivu-table .result-table-success-cell-name {
+    background-color: #2db7f5;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ivu-table .result-table-fail-cell-name {
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
