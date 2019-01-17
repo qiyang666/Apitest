@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b05938b-5d87-44ce-8ef8-e918cc856216" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/mgdb/mgdb_select_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/mgdb/mgdb_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mgdb/mgdb_case.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/mgdb/mgdb_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="997">
-              <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="18" />
+            <state relative-caret-position="1140">
+              <caret line="78" column="18" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="18" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -89,9 +87,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1653" />
-    <option name="y" value="194" />
-    <option name="width" value="1501" />
+    <option name="x" value="116" />
+    <option name="y" value="94" />
+    <option name="width" value="1440" />
     <option name="height" value="770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -102,7 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,6 +134,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,17 +289,18 @@
       <workItem from="1547179463188" duration="1613000" />
       <workItem from="1547187718781" duration="7549000" />
       <workItem from="1547431956205" duration="9596000" />
+      <workItem from="1547604146790" duration="495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54925000" />
+    <option name="totallyTimeSpent" value="55420000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1653" y="194" width="1501" height="770" extended-state="0" />
+    <frame x="116" y="94" width="1440" height="770" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49596775" visible="true" weight="0.19945168" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49596775" visible="true" weight="0.20243205" />
       <window_info id="Structure" order="1" sideWeight="0.5020161" side_tool="true" weight="0.16138126" />
       <window_info id="Favorites" order="2" sideWeight="0.50403225" side_tool="true" weight="0.16138126" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -658,20 +657,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/mgdb/mgdb_case.py">
+    <entry file="file://$PROJECT_DIR$/backend/mgdb/mgdb_select_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
-          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="18" />
+        <state relative-caret-position="480">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/mgdb/mgdb_select_config.py">
+    <entry file="file://$PROJECT_DIR$/backend/mgdb/mgdb_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        <state relative-caret-position="1140">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="18" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
